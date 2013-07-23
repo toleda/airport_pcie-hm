@@ -2,7 +2,7 @@ airport_pcie-hm
 ============
 OS X Airport PCIe Half Mini
 
-This guide enables OS X Airport/native WiFi, with non- native WiFi PCIe Half Mini cards, on Intel based motherboards running OS X/Mountain Lion and newer. Airport working OOB on Mountain Lion (10.8. and newer) with Broadcom BCM943224 HMS and Atheros AR9280 and AR9380   System Information/Networks/WiFi  reports as Airport Extreme; Wake on Wireless (Atheros) and AirDrop supported.  Newer Broadcom WiFi cards no longer require rebranding to work in OS X.
+This guide enables OS X Airport/native WiFi, with non- native WiFi PCIe Half Mini cards, on Intel based motherboards running OS X/Mountain Lion and newer. Airport working OOB on Mountain Lion (10.8.5 and newer) with Broadcom BCM943224 HMS and Atheros AR9280 and AR9380   System Information/Networks/WiFi  reports as Airport Extreme; Wake on Wireless (Atheros) and AirDrop supported.  Newer Broadcom WiFi cards no longer require rebranding to work in OS X.
 
 Requirements
 1. 10.8.5 or newer (This solution does not work in 10.8.4 or earlier) 
