@@ -25,7 +25,6 @@ Non-Native Airport PCIe Half Mini cards, see [Guide] airport_pcie-hm_details.pdf
 4. AR9285 - 2.4 GHz, abgn, 1 stream, 150 Mbs
 5. AR9287 - 2.4 GHz, abgn, 2 stream, 300 Mbs
 
-
 Download
 1. https://github.com/toleda/airport_pcie-hm
 2. Download ZIP
