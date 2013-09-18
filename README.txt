@@ -13,17 +13,17 @@ Airport PCIe Half Mini Guides:
 [Guide] airport_pcie-hm_plist_edits.pdf
 
 Native Airport PCIe Half Mini cards.
-1. BCM943224 HMS - 2.4/5, GHz abgn, 2 stream, 300 Mbs
-2. BCM4360 - 2.4/5 GHz, ac+abgn, 3 Stream, 1300 Mbs  (PCIe x1, not HM at this time)
-3. AR9280 - 2.4/5 GHz, abgn, 2 Stream, 300 Mbs
-4. AR9380 - 2.4/5 GHz, abgn, 3 Stream, 450 Mbs
+1. BCM4360 - 2.4/5 GHz, ac+abgn, 3 Stream, 1300 Mbs  (PCIe x1, not HM at this time)
+2. AR9280 - 2.4/5 GHz, abgn, 2 Stream, 300 Mbs
+3. AR9380 - 2.4/5 GHz, abgn, 3 Stream, 450 Mbs
 
 Non-Native Airport PCIe Half Mini cards, see [Guide] airport_pcie-hm_details.pdf
-1. BCM943225 HMS - 2.4/5 GHz, bgn, 2 stream, 300 Mbs
-2. BCM943225 HMB - 2.4/5 GHz, bgn, 2 stream, 300 Mbs + BT (3.0)
-3. BCM94352 HMB - 2.4/5 GHz, ac+abgn, 2 stream, 867 Mbs + BT (4.0)
-4. AR9285 - 2.4 GHz, abgn, 1 stream, 150 Mbs
-5. AR9287 - 2.4 GHz, abgn, 2 stream, 300 Mbs
+1. BCM943224 HMS - 2.4/5, GHz abgn, 2 stream, 300 Mbs
+2. BCM943225 HMS - 2.4/5 GHz, bgn, 2 stream, 300 Mbs
+3. BCM943225 HMB - 2.4/5 GHz, bgn, 2 stream, 300 Mbs + BT (3.0)
+4. BCM94352 HMB - 2.4/5 GHz, ac+abgn, 2 stream, 867 Mbs + BT (4.0)
+5. AR9285 - 2.4 GHz, abgn, 1 stream, 150 Mbs
+6. AR9287 - 2.4 GHz, abgn, 2 stream, 300 Mbs
 
 Download
 1. https://github.com/toleda/airport_pcie-hm
