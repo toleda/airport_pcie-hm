@@ -2,7 +2,7 @@
 # File: arpt3-bcm4352_v2.0.txt
 # Credit: PikeRAlpha
 #
-# Broadcom  BCM43225 WiFi dsdt edits
+# Broadcom  BCM4352 WiFi dsdt edits
 # Verify IOReg/pci14e4 device @1C,3/RP04, otherwise, edit patch file:
 # Find: RP04
 # Replace All: name (name = IOReg/pci14e4 device name, RP01, BR01, PEX1, etc.)
