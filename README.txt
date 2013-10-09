@@ -10,9 +10,9 @@ Requirements
 1. 10.8.5 or newer (This solution does not work in 10.8.4 or earlier) 
 
 Airport PCIe Half Mini Guides:
-[Guide] airport_pcie-hm_details.pdf
-[Guide] airport_pcie-hm_dsdt_edits.pdf
-[Guide] airport_pcie-hm_plist_edits.pdf
+[Guide]_airport_pcie-hm_details.pdf
+[Guide]_airport_pcie-hm_dsdt_edits.pdf
+[Guide]_airport_pcie-hm_plist_edits.pdf
 
 Native Airport PCIe Half Mini cards.
 2. BCM4360 - 2.4/5 GHz, ac+abgn, 3 Stream, 1300 Mbs  (PCIe x1, not HM at this time)
@@ -24,8 +24,8 @@ Non-Native Airport PCIe Half Mini cards, see [Guide] airport_pcie-hm_details.pdf
 1. BCM943225 HMS - 2.4 GHz, bgn, 2 stream, 108 Mbs
 2. BCM943225 HMB - 2.4 GHz, bgn, 2 stream, 108 Mbs + BT (3.0)
 3. BCM94352 HMB - 2.4/5 GHz, ac+abgn, 2 stream, 867 Mbs + BT (4.0)
-4. AR9285 - 2.4 GHz, abgn, 1 stream, 150 Mbs
-5. AR9287 - 2.4 GHz, abgn, 2 stream, 300 Mbs
+4. AR9285 - 2.4 GHz, abgn, 1 stream, 54 Mbs
+5. AR9287 - 2.4 GHz, abgn, 2 stream, 108 Mbs
 
 WiFi + BT
 1. BCM943352 HMB/AzureWave AW-CE123H supports both Airport and Bluetooth 4.0
