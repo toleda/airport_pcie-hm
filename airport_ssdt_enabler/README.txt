@@ -5,7 +5,9 @@ OS X Airport PCIe Half Mini
 An airport_ssdt_enabler enables native Airport with non- native WiFi PCIe Half Mini cards on OS X/Mountain Lion/10.8.5 and newer. This method avoids dsdt and kext edits and is immune to Software Updates and BIOS revisions. 
 
 Requirements
-1. 10.8.5 or newer (This solution does not work in 10.8.4 or earlier)
+1. OS X versions supported
+1a.10.9 or newer
+1b.10.8.5 or newer (This solution does not work in 10.8.4 or earlier)
 2. AMI 7/8 Series UEFI
 3. Airport Wifi card at: IOReg/RP0x/PSXS@0/vendor-id 
 3a. <e4 14 00 00> (BCM) or 

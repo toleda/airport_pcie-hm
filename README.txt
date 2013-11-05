@@ -7,12 +7,13 @@ Airport working OOB on Mountain Lion with Broadcom BCM4360  and Atheros AR9280  
 BCM943224 HMS, BCM943225 HMB and BCM94352 HMB  PCIe Half Mini versions tested.  AR9280, AR9285 and AR9287 PCIe Half Mini versions tested.   Mini PCIe versions  and Mini PCIe to PCIe versions expected to work. 
 
 Requirements
-1. 10.8.5 or newer (This solution does not work in 10.8.4 or earlier) 
+1. !0.9 or newer
+2. 10.8.5 or newer (This solution does not work in 10.8.4 or earlier)
 
 Airport PCIe Half Mini Guides:
-[Guide]_airport_pcie-hm_details.pdf
-[Guide]_airport_pcie-hm_dsdt_edits.pdf
-[Guide]_airport_pcie-hm_plist_edits.pdf
+[Guide]_airport_pcie-hm_details.pdf.zip
+[Guide]_airport_pcie-hm_dsdt_edits.pdf.zip
+[Guide]_airport_pcie-hm_plist_edits.pdf.zip
 
 Native Airport PCIe Half Mini cards.
 2. BCM4360 - 2.4/5 GHz, ac+abgn, 3 Stream, 1300 Mbs  (PCIe x1, not HM at this time)
@@ -35,28 +36,36 @@ Note: The Asus Superfast 802.11ac (Z87 Pro & Deluxe motherboards) is the BCM4352
 http://www.gmyle.com/products/micro-usb-bluetooth-4-0-dongle-dual-mode-w-low-energy-technology-wireless-adapter-broadcom-bcm20702-chipset-x10
 
 Airport Injection Methods
-1. Kext Enabler, see airport_ARPTEnablers folder
-2. Kext edit/Info.plist, see [Guide] airport_pcie-hm_plist_edits.pdf
-3. dsdt edits, [Guide] airport_pcie-hm_dsdt_edits.pdf
+1. kext enabler, see airport_kext_enabler folder/README.txt (above)
+1a. bcm4352.kext.zip - bcm4352/aw-ce123h WiFi + BT
+1b. bcm4352bt.kext.zip - bcm4352/aw-ce123h BT only
+1c. toledaARPT.kext.zip - see [Guide] airport_pcie-hm_details.pdf.zip
+2. kext edit/Info.plist, see [Guide] airport_pcie-hm_plist_edits.pdf.zip
+3. dsdt edits, [Guide] airport_pcie-hm_dsdt_edits.pdf.zip
+4. ssdt enabler, see airport_ssdt_enabler folder/README.txt (above)
+4a. airport_ssdt-bcm43xx_v1.zip
+4b. airport_ssdt-ar928x_v1.zip
 
 Installation/Configuration/Troubleshooting
-[Guide] airport_pcie-hm_details.pdf
+[Guide] airport_pcie-hm_details.pdf.zip
 
-Problem Reporting
+Problem Reporting/Post to
 1. http://www.tonymacx86.com/network/104850-guide-airport-pcie-half-mini-v2.html
-2. im - tba
+2. http://www.insanelymac.com/forum/topic/292542-airport-pcie-half-mini/
 
 Credit
 THe KiNG 
 Andy Vandijck
 PikeRAlpha
+EMlyDinEsH
 
 toleda
 https://github.com/toleda/airport_pcie-hm
-[Guide] airport_pcie-hm_details.pdf
-[Guide] airport_pcie-hm_dsdt_edits.pdf
-[Guide] airport_pcie-hm_plist_edits.pdf
+[Guide] airport_pcie-hm_details.pdf.zip
+[Guide] airport_pcie-hm_dsdt_edits.pdf.zip
+[Guide] airport_pcie-hm_plist_edits.pdf.zip
 README.txt
-Files:
-ARPTEnablers
+Folders
+airport_kext_enabler
+airport_ssdt_enabler
 Patches
